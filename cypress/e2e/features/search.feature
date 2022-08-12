@@ -11,7 +11,7 @@ Feature: Search news about BitCoin
         And A user presses ENTER
         Then The user should be redirected to the search results page
         Then it is checked if we have 10 results
-    
+
     Scenario: Typing and using the click on the magnifying glass to search
         When A user enter BitCoin in the search bar 
         And clicks on the magnifying glass
